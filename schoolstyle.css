@@ -7,9 +7,9 @@
 }
 
 body {
-  background-color: #ffff;
+  background-color: #000000;
   font-family: 'Rowdies', cursive;
-	color: #000000;
+	color: #ffff;
 }
 
 #page-wrapper {
@@ -18,6 +18,14 @@ body {
 
 li {
   list-style: none;
+}
+
+h2 {
+  color: #ffff;
+}
+
+p {
+  color: #fff;
 }
 
 a {
