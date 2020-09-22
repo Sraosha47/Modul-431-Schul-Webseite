@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #ffff;
   font-family: 'Rowdies', cursive;
 	color: #000000;
 }
@@ -21,7 +21,12 @@ li {
 }
 
 a {
-  color: #fff;
+  color: #ffff;
+  text-decoration: none;
+}
+
+.a2 {
+  color: #d3a625;
   text-decoration: none;
 }
 
@@ -46,45 +51,8 @@ a {
 }
 
 .btn:hover {
-  border: 4px #436436 solid;
+  border: 4px #740001 solid;
 }
-
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-
 
 .grid {
   display: flex;
@@ -98,7 +66,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #6CC551;
+  background-color: #ae0001;
 }
 
 @media (max-width: 600px) {
@@ -198,11 +166,11 @@ nav > ul {
   height: 30px;
   margin: 15px 0;
   border: 0;
-  background-color: #6CC551;
+  background-color: #eeba30;
 }
 
 #hero input[type="submit"]:hover {
-  background-color: #6CC551;
+  background-color: #d3a625;
   transition: background-color 1s;
 }
 
@@ -222,7 +190,7 @@ nav > ul {
   justify-content: center;
   height: 125px;
   width: 20vw;
-  color: #6CC551;
+  color: #eeba30;
 }
 
 @media (max-width: 550px) {
@@ -280,12 +248,12 @@ nav > ul {
   text-align: center;
   width: calc(100%  / 3);
   margin: 10px;
-  border: 1px solid #fff;
+  border: 1px solid #eeba30;
   border-radius: 3px;
 }
 
 .product > .level {
-  background-color: #6CC551;
+  background-color: #eeba30;
   color: black;
   padding: 15px 0;
   width: 100%;
@@ -308,12 +276,12 @@ nav > ul {
 .product > button {
   border: 0;
   margin: 15px 0;
-  background-color: #6CC551;
+  background-color: #eeba30;
   font-weight: 400;
 }
 
 .product > button:hover {
-  background-color: #6CC551;
+  background-color: #eeba30;
   transition: background-color 1s;
 }
 
@@ -331,7 +299,7 @@ nav > ul {
 
 footer {
   margin-top: 30px;
-  background-color: #6CC551;
+  background-color: #eeba30;
   padding: 20px;
 }
 
@@ -349,5 +317,5 @@ footer > span {
   display: flex;
   justify-content: flex-end;
   font-size: 0.9em;
-  color: #444;
+  color: #000000;
 }
