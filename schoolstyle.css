@@ -234,6 +234,10 @@ nav > ul {
   }
 }
 
+#game-results {
+padding-top: 15px;
+}
+
 #making-of {
   margin-top: 50px;
   display: flex;
