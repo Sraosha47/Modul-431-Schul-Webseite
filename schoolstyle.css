@@ -85,7 +85,7 @@ header {
 
 .logo {
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
   width: 60vw;
 }
 
@@ -110,6 +110,7 @@ header {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
 
 @media (max-width: 650px) {
   .logo > img {
