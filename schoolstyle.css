@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
 body {
   background-color: #000000;
   font-family: 'Rowdies', cursive;
@@ -20,16 +24,23 @@ li {
   list-style: none;
 }
 
+h1 {
+  font-size: 4.7rem;
+}
+
 h2 {
   color: #ffff;
+  font-size: 3rem;
 }
 
 p {
   color: #fff;
+  font-size: 2rem;
 }
 
 a {
   color: #ffff;
+  font-size: 1.7rem;
   text-decoration: none;
   transition: all 1s ease-in-out;
 }
