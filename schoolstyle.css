@@ -65,6 +65,11 @@ a {
 
 .grid {
   display: flex;
+  transition: all 0.5s ease-in-out;
+}
+
+.grid:hover {
+  padding-left: 20px;
 }
 
 header {
@@ -339,12 +344,4 @@ footer > span {
   justify-content: flex-end;
   font-size: 0.9em;
   color: #000000;
-}
-
-.box-content {
-  transition: all 0.5s ease-in-out;
-}
-
-.box-content:hover {
-  padding-left: 20px;
 }
