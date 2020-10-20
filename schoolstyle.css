@@ -358,6 +358,12 @@ footer > span {
   color: #000000;
 }
 
+.navpos {
+  position: fixed;
+  top: 10px;
+  right: 80px;
+}
+
 .dropbtn {
   background-color: #7A0000;
   color: white;
