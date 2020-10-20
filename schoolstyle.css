@@ -31,6 +31,7 @@ p {
 a {
   color: #ffff;
   text-decoration: none;
+  transition: all 1s ease-in-out;
 }
 
 .a2 {
@@ -133,6 +134,7 @@ nav {
   }
   nav li {
     padding-bottom: 5px;
+    
   }
 }
 
@@ -144,7 +146,6 @@ nav > ul {
 }
 
 li > a:hover {
-  transition: all 2s;
   color: #ae0001;
 }
 
@@ -338,4 +339,12 @@ footer > span {
   justify-content: flex-end;
   font-size: 0.9em;
   color: #000000;
+}
+
+.box-content {
+  transition: all 0.5s ease-in-out;
+}
+
+.box-content:hover {
+  padding-left: 20px;
 }
