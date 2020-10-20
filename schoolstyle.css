@@ -143,6 +143,11 @@ nav > ul {
   justify-content: space-around;
 }
 
+li > a:hover {
+  transition: all 2s;
+  color: #ae0001;
+}
+
 @media (max-width: 650px) {
   nav > ul {
     flex-direction: column;
