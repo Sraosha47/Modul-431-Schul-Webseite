@@ -31,6 +31,7 @@ p {
 a {
   color: #ffff;
   text-decoration: none;
+  transition: all 1s ease-in-out;
 }
 
 .a2 {
@@ -64,6 +65,11 @@ a {
 
 .grid {
   display: flex;
+  transition: all 0.5s ease-in-out;
+}
+
+.grid:hover {
+  padding-left: 20px;
 }
 
 header {
@@ -133,6 +139,7 @@ nav {
   }
   nav li {
     padding-bottom: 5px;
+    
   }
 }
 
@@ -141,6 +148,10 @@ nav > ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+li > a:hover {
+  color: #ae0001;
 }
 
 @media (max-width: 650px) {
