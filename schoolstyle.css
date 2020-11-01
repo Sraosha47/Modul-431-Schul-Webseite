@@ -76,6 +76,10 @@ a {
   text-decoration: none;
 }
 
+#game-results {
+  font-size: 2rem;
+}
+
 /** global classes styling **/
 
 .container {
